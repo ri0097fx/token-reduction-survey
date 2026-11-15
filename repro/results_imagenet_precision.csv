@@ -1,0 +1,18 @@
+method,setting,top1,gmacs,images,seconds,note
+none (official code),no reduction,79.86,4.599,50000,38.5,timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=13,79.04,2.703,50000,29.4,timm 0.4.12; NVIDIA GeForce RTX 5090
+evit (official code),"keep=0.7, fuse_token",78.51,3.029,50000,29.4,timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning
+diffrate (official code),2.9,79.53,2.905,50000,31.8,timm 0.4.12; NVIDIA GeForce RTX 5090
+none (official code),no reduction,79.85,4.599,50000,25.0,timm 0.4.12; NVIDIA GeForce RTX 5090; fp16
+tome (official code),r=13,79.02,2.703,50000,24.3,timm 0.4.12; NVIDIA GeForce RTX 5090; fp16
+evit (official code),"keep=0.7, fuse_token",78.5,3.029,50000,24.2,timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning; fp16
+diffrate (official code),2.9,79.54,2.905,50000,23.8,timm 0.4.12; NVIDIA GeForce RTX 5090; fp16
+none (official code),no reduction,79.84,4.599,50000,24.8,timm 0.4.12; NVIDIA GeForce RTX 5090; bf16
+tome (official code),r=13,79.09,2.703,50000,23.7,timm 0.4.12; NVIDIA GeForce RTX 5090; bf16
+evit (official code),"keep=0.7, fuse_token",78.54,3.029,50000,24.2,timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning; bf16
+diffrate (official code),2.9,79.55,2.905,50000,24.6,timm 0.4.12; NVIDIA GeForce RTX 5090; bf16
+tome (official code),"r=13, matching in fp32",78.98,2.703,50000,24.0,timm 0.4.12; NVIDIA GeForce RTX 5090; bf16
+tome (official code),"r=13, matching in fp32",79.06,2.703,50000,24.0,timm 0.4.12; NVIDIA GeForce RTX 5090; fp16
+topk (official code),"keep=0.7, no fused token",78.48,2.997,50000,20.6,timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning
+topk (official code),"keep=0.7, no fused token",78.49,2.997,50000,20.6,timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning; fp16
+topk (official code),"keep=0.7, no fused token",78.45,2.997,50000,20.8,timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning; bf16

@@ -1,0 +1,5 @@
+method,setting,eager_ms,default_ms,default_same_output,reduce-overhead_ms,reduce-overhead_same_output,note
+none,no reduction,1.509,1.283,True,1.273,True,"DeiT-S fp32, batch 1; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090"
+tome,r=13,3.271,1.267,True,1.124,True,"DeiT-S fp32, batch 1; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090"
+evit,"keep=0.7, fuse_token",1.518,1.124,True,1.103,True,"DeiT-S fp32, batch 1; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090"
+diffrate,2.9,failed: 'Block' object has no attribute 'prune_ddp',,,,,

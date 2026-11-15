@@ -1,0 +1,54 @@
+# Methods excluded from the survey (see docs/notability.md). One key per line.
+# low notability (2026-10-17); peer-reviewed ViT methods restored on 2026-10-18 (only arXiv-only,
+# workshop, non-ViT backbones and the human-mesh method TORE stay excluded)
+li2022sait
+dou2023tore
+havtorn2023msvit
+ronen2023mixedres
+zhan2024mambatoken
+endo2025feather
+pollard2025videomerge
+ma2025mambatokenfree
+zeng2025tokentransforming
+bercy2026g2tm
+choi2026rapid
+# VLM / MLLM methods that compress inside the language model: out of scope (2026-10-17); the methods that act on the
+# vision encoder (DyMU, TCA, PruMerge, VisionZip) were restored on 2026-10-22
+shi2024crossget
+chen2024fastv
+xing2025vico
+zhang2025sparsevlm
+alvar2025divprune
+zhang2025cdpruner
+lin2025vtw
+arif2025hired
+li2025tokenpacker
+wang2025effivlmbench
+ye2025fitprune
+liu2026lmft
+chen2026hyptm
+luo2024adaformer
+zhen2025tsasd
+sun2025drvit
+chowdhury2025bandit
+jiang2024lemevit
+parikh2024fpga
+lee2024vittogo
+yoo2024adaptiv
+bao2025ftcformer
+wang2024camixersr
+smith2024todo
+zou2025pf2avit
+yang2025twdp
+li2025stem
+chen2025trfpa
+cho2025dppvit
+shin2025atom
+huang2022svit
+xu2023lgvit
+jain2024mone
+olszewski2025tore
+li2023flip
+yang2023aclip
+wu2025patchranking
+huang2025tosa

@@ -1,0 +1,5 @@
+variant,ms_batch1,img_per_s_batch256,ms_batch1_cudagraph,cudagraph_same_output,note
+unreduced,1.515,3367.3,1.262,True,"DeiT-S fp32, top-k by class attention at blocks 4, 7, 10, keep 0.7; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090"
+gather,1.369,5194.6,1.078,True,"DeiT-S fp32, top-k by class attention at blocks 4, 7, 10, keep 0.7; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090"
+mask,1.535,5234.9,1.301,True,"DeiT-S fp32, top-k by class attention at blocks 4, 7, 10, keep 0.7; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090"
+item,1.558,5261.7,1.201,True,"DeiT-S fp32, top-k by class attention at blocks 4, 7, 10, keep 0.7; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090"

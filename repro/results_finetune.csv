@@ -1,0 +1,163 @@
+method,setting,model,epoch,top1,train_loss,lr,batch,aug,seconds
+none,no reduction,deit_small_patch16_224,0,79.86,,2e-05,256,deit,25.5
+none,no reduction,deit_small_patch16_224,1,79.56,3.0286,2e-05,256,deit,1406.1
+none,no reduction,deit_small_patch16_224,2,79.63,3.0347,2e-05,256,deit,1401.1
+none,no reduction,deit_small_patch16_224,3,79.59,3.0129,2e-05,256,deit,990.2
+none,no reduction,deit_small_patch16_224,4,79.76,3.0142,2e-05,256,deit,695.8
+none,no reduction,deit_small_patch16_224,5,79.73,3.0044,2e-05,256,deit,698.8
+topk,"keep=0.5, no fused token",deit_small_patch16_224,0,74.04,,2e-05,256,deit,16.1
+topk,"keep=0.5, no fused token",deit_small_patch16_224,1,76.95,3.4315,2e-05,256,deit,398.1
+topk,"keep=0.5, no fused token",deit_small_patch16_224,2,77.33,3.346,2e-05,256,deit,393.9
+topk,"keep=0.5, no fused token",deit_small_patch16_224,3,77.42,3.3099,2e-05,256,deit,396.2
+topk,"keep=0.5, no fused token",deit_small_patch16_224,4,77.55,3.2855,2e-05,256,deit,393.0
+topk,"keep=0.5, no fused token",deit_small_patch16_224,5,77.58,3.2709,2e-05,256,deit,399.9
+evit,"keep=0.5, fuse_token",deit_small_patch16_224,0,74.21,,2e-05,256,deit,16.6
+evit,"keep=0.5, fuse_token",deit_small_patch16_224,1,77.14,3.3401,2e-05,256,deit,398.3
+evit,"keep=0.5, fuse_token",deit_small_patch16_224,2,77.46,3.2532,2e-05,256,deit,392.0
+evit,"keep=0.5, fuse_token",deit_small_patch16_224,3,77.64,3.2417,2e-05,256,deit,390.0
+evit,"keep=0.5, fuse_token",deit_small_patch16_224,4,77.79,3.2099,2e-05,256,deit,389.3
+evit,"keep=0.5, fuse_token",deit_small_patch16_224,5,77.88,3.2145,2e-05,256,deit,388.2
+tome,r=16,deit_small_patch16_224,0,77.98,,2e-05,256,deit,14.6
+tome,r=16,deit_small_patch16_224,1,78.67,3.1482,2e-05,256,deit,414.4
+tome,r=16,deit_small_patch16_224,2,78.86,3.1379,2e-05,256,deit,411.5
+tome,r=16,deit_small_patch16_224,3,78.93,3.1402,2e-05,256,deit,408.6
+tome,r=16,deit_small_patch16_224,4,78.94,3.1102,2e-05,256,deit,412.7
+tome,r=16,deit_small_patch16_224,5,78.99,3.1082,2e-05,256,deit,413.0
+diffrate,2.3,deit_small_patch16_224,0,78.74,,2e-05,256,deit,15.4
+diffrate,2.3,deit_small_patch16_224,1,78.96,3.1558,2e-05,256,deit,430.7
+diffrate,2.3,deit_small_patch16_224,2,78.84,3.1427,2e-05,256,deit,426.6
+diffrate,2.3,deit_small_patch16_224,3,78.99,3.1273,2e-05,256,deit,427.6
+diffrate,2.3,deit_small_patch16_224,4,79.21,3.1282,2e-05,256,deit,423.2
+diffrate,2.3,deit_small_patch16_224,5,79.24,3.0995,2e-05,256,deit,416.1
+mctf,"r=19, blocks 2-12, one-step-ahead",deit_small_patch16_224,0,78.75,,2e-05,256,deit,15.3
+mctf,"r=19, blocks 2-12, one-step-ahead",deit_small_patch16_224,1,79.05,3.119,2e-05,256,deit,621.5
+mctf,"r=19, blocks 2-12, one-step-ahead",deit_small_patch16_224,2,78.91,3.1171,2e-05,256,deit,626.9
+mctf,"r=19, blocks 2-12, one-step-ahead",deit_small_patch16_224,3,79.13,3.1048,2e-05,256,deit,624.0
+mctf,"r=19, blocks 2-12, one-step-ahead",deit_small_patch16_224,4,79.23,3.0956,2e-05,256,deit,624.5
+mctf,"r=19, blocks 2-12, one-step-ahead",deit_small_patch16_224,5,79.16,3.0796,2e-05,256,deit,624.2
+reprshift,"drop 0.31 after blocks 1/4/7, MLP shift (L2)",deit_small_patch16_224,0,74.52,,2e-05,256,deit,15.4
+reprshift,"drop 0.31 after blocks 1/4/7, MLP shift (L2)",deit_small_patch16_224,1,76.67,3.4259,2e-05,256,deit,368.6
+reprshift,"drop 0.31 after blocks 1/4/7, MLP shift (L2)",deit_small_patch16_224,2,76.87,3.387,2e-05,256,deit,365.6
+reprshift,"drop 0.31 after blocks 1/4/7, MLP shift (L2)",deit_small_patch16_224,3,77.02,3.3761,2e-05,256,deit,367.1
+reprshift,"drop 0.31 after blocks 1/4/7, MLP shift (L2)",deit_small_patch16_224,4,77.1,3.365,2e-05,256,deit,365.6
+reprshift,"drop 0.31 after blocks 1/4/7, MLP shift (L2)",deit_small_patch16_224,5,77.29,3.3373,2e-05,256,deit,366.9
+topk,"keep=0.7, no fused token",deit_small_patch16_224,0,78.45,,2e-05,256,deit,15.6
+topk,"keep=0.7, no fused token",deit_small_patch16_224,1,78.93,3.1659,2e-05,256,deit,457.7
+topk,"keep=0.7, no fused token",deit_small_patch16_224,2,79.05,3.1492,2e-05,256,deit,456.6
+topk,"keep=0.7, no fused token",deit_small_patch16_224,3,79.12,3.1206,2e-05,256,deit,456.8
+topk,"keep=0.7, no fused token",deit_small_patch16_224,4,79.2,3.1114,2e-05,256,deit,456.5
+topk,"keep=0.7, no fused token",deit_small_patch16_224,5,79.25,3.1101,2e-05,256,deit,457.4
+evit,"keep=0.7, fuse_token",deit_small_patch16_224,0,78.55,,2e-05,256,deit,14.7
+evit,"keep=0.7, fuse_token",deit_small_patch16_224,1,78.8,3.132,2e-05,256,deit,469.3
+evit,"keep=0.7, fuse_token",deit_small_patch16_224,2,78.97,3.1217,2e-05,256,deit,467.7
+evit,"keep=0.7, fuse_token",deit_small_patch16_224,3,79.08,3.1011,2e-05,256,deit,466.9
+evit,"keep=0.7, fuse_token",deit_small_patch16_224,4,79.22,3.085,2e-05,256,deit,468.2
+evit,"keep=0.7, fuse_token",deit_small_patch16_224,5,79.24,3.0787,2e-05,256,deit,468.7
+tome,r=11,deit_small_patch16_224,0,79.23,,2e-05,256,deit,14.8
+tome,r=11,deit_small_patch16_224,1,79.29,3.0809,2e-05,256,deit,487.9
+tome,r=11,deit_small_patch16_224,2,79.31,3.0799,2e-05,256,deit,489.5
+tome,r=11,deit_small_patch16_224,3,79.37,3.089,2e-05,256,deit,486.9
+tome,r=11,deit_small_patch16_224,4,79.39,3.0619,2e-05,256,deit,487.1
+tome,r=11,deit_small_patch16_224,5,79.42,3.0513,2e-05,256,deit,487.0
+diffrate,2.9,deit_small_patch16_224,0,79.55,,2e-05,256,deit,15.6
+diffrate,2.9,deit_small_patch16_224,1,79.27,3.0751,2e-05,256,deit,495.1
+diffrate,2.9,deit_small_patch16_224,2,79.38,3.0771,2e-05,256,deit,492.7
+diffrate,2.9,deit_small_patch16_224,3,79.48,3.0657,2e-05,256,deit,493.2
+diffrate,2.9,deit_small_patch16_224,4,79.59,3.0518,2e-05,256,deit,493.8
+diffrate,2.9,deit_small_patch16_224,5,79.6,3.0396,2e-05,256,deit,494.1
+mctf,"r=13, blocks 2-12, one-step-ahead",deit_small_patch16_224,0,79.51,,2e-05,256,deit,16.9
+mctf,"r=13, blocks 2-12, one-step-ahead",deit_small_patch16_224,1,79.45,3.0661,2e-05,256,deit,792.3
+mctf,"r=13, blocks 2-12, one-step-ahead",deit_small_patch16_224,2,79.41,3.0634,2e-05,256,deit,791.2
+mctf,"r=13, blocks 2-12, one-step-ahead",deit_small_patch16_224,3,79.58,3.0501,2e-05,256,deit,792.2
+mctf,"r=13, blocks 2-12, one-step-ahead",deit_small_patch16_224,4,79.62,3.0356,2e-05,256,deit,792.9
+mctf,"r=13, blocks 2-12, one-step-ahead",deit_small_patch16_224,5,79.7,3.0324,2e-05,256,deit,788.9
+reprshift,"drop 0.2 after blocks 1/4/7, MLP shift (L2)",deit_small_patch16_224,0,77.86,,2e-05,256,deit,15.6
+reprshift,"drop 0.2 after blocks 1/4/7, MLP shift (L2)",deit_small_patch16_224,1,78.32,3.2188,2e-05,256,deit,445.7
+reprshift,"drop 0.2 after blocks 1/4/7, MLP shift (L2)",deit_small_patch16_224,2,78.44,3.2025,2e-05,256,deit,442.8
+reprshift,"drop 0.2 after blocks 1/4/7, MLP shift (L2)",deit_small_patch16_224,3,78.53,3.1946,2e-05,256,deit,443.5
+reprshift,"drop 0.2 after blocks 1/4/7, MLP shift (L2)",deit_small_patch16_224,4,78.65,3.1842,2e-05,256,deit,443.3
+reprshift,"drop 0.2 after blocks 1/4/7, MLP shift (L2)",deit_small_patch16_224,5,78.7,3.1679,2e-05,256,deit,442.5
+dynamicvit,"keep=0.7, full",deit_small_patch16_224,0,68.61,,0.00025/2e-05,256,deit,15.5
+dynamicvit,"keep=0.7, full",deit_small_patch16_224,1,78.79,3.1252,0.00025/2e-05,256,deit,991.8
+dynamicvit,"keep=0.7, full",deit_small_patch16_224,2,78.81,3.0934,0.00025/2e-05,256,deit,990.9
+dynamicvit,"keep=0.7, full",deit_small_patch16_224,3,79.09,3.0901,0.00025/2e-05,256,deit,990.8
+dynamicvit,"keep=0.7, full",deit_small_patch16_224,4,79.11,3.065,0.00025/2e-05,256,deit,990.6
+dynamicvit,"keep=0.7, full",deit_small_patch16_224,5,79.17,3.0643,0.00025/2e-05,256,deit,990.7
+dynamicvit,"keep=0.5, full",deit_small_patch16_224,0,51.34,,0.00025/2e-05,256,deit,15.4
+dynamicvit,"keep=0.5, full",deit_small_patch16_224,1,76.46,3.2255,0.00025/2e-05,256,deit,991.9
+dynamicvit,"keep=0.5, full",deit_small_patch16_224,2,76.66,3.1952,0.00025/2e-05,256,deit,991.1
+dynamicvit,"keep=0.5, full",deit_small_patch16_224,3,77.17,3.1648,0.00025/2e-05,256,deit,991.6
+dynamicvit,"keep=0.5, full",deit_small_patch16_224,4,77.41,3.1475,0.00025/2e-05,256,deit,991.0
+dynamicvit,"keep=0.5, full",deit_small_patch16_224,5,77.43,3.1377,0.00025/2e-05,256,deit,991.9
+dynamicvit,"keep=0.7, full, distill",deit_small_patch16_224,0,68.61,,0.00025/2e-05,256,deit,15.5
+dynamicvit,"keep=0.7, full, distill",deit_small_patch16_224,1,78.83,3.3681,0.00025/2e-05,256,deit,1217.7
+dynamicvit,"keep=0.7, full, distill",deit_small_patch16_224,2,79.13,3.2905,0.00025/2e-05,256,deit,1215.1
+dynamicvit,"keep=0.7, full, distill",deit_small_patch16_224,3,79.12,3.2785,0.00025/2e-05,256,deit,1216.4
+dynamicvit,"keep=0.7, full, distill",deit_small_patch16_224,4,79.17,3.2521,0.00025/2e-05,256,deit,1216.2
+dynamicvit,"keep=0.7, full, distill",deit_small_patch16_224,5,79.27,3.2375,0.00025/2e-05,256,deit,1216.5
+dynamicvit,"keep=0.5, full, distill",deit_small_patch16_224,0,51.34,,0.00025/2e-05,256,deit,14.7
+dynamicvit,"keep=0.5, full, distill",deit_small_patch16_224,1,76.36,3.5041,0.00025/2e-05,256,deit,1217.3
+dynamicvit,"keep=0.5, full, distill",deit_small_patch16_224,2,76.73,3.4204,0.00025/2e-05,256,deit,1216.0
+dynamicvit,"keep=0.5, full, distill",deit_small_patch16_224,3,76.99,3.3941,0.00025/2e-05,256,deit,1216.1
+dynamicvit,"keep=0.5, full, distill",deit_small_patch16_224,4,77.13,3.3793,0.00025/2e-05,256,deit,1216.6
+dynamicvit,"keep=0.5, full, distill",deit_small_patch16_224,5,77.17,3.3673,0.00025/2e-05,256,deit,1216.1
+dynamicvit,"keep=0.7, predictors only",deit_small_patch16_224,0,68.61,,0.00025/2e-05,256,deit,14.8
+dynamicvit,"keep=0.7, predictors only",deit_small_patch16_224,1,78.86,3.1421,0.00025/2e-05,256,deit,748.6
+dynamicvit,"keep=0.7, predictors only",deit_small_patch16_224,2,78.88,3.0983,0.00025/2e-05,256,deit,747.8
+dynamicvit,"keep=0.7, predictors only",deit_small_patch16_224,3,78.85,3.0936,0.00025/2e-05,256,deit,747.9
+dynamicvit,"keep=0.7, predictors only",deit_small_patch16_224,4,78.86,3.0999,0.00025/2e-05,256,deit,747.7
+dynamicvit,"keep=0.7, predictors only",deit_small_patch16_224,5,78.94,3.1037,0.00025/2e-05,256,deit,748.2
+dynamicvit,"keep=0.5, predictors only",deit_small_patch16_224,0,51.34,,0.00025/2e-05,256,deit,14.7
+dynamicvit,"keep=0.5, predictors only",deit_small_patch16_224,1,74.46,3.2506,0.00025/2e-05,256,deit,750.0
+dynamicvit,"keep=0.5, predictors only",deit_small_patch16_224,2,74.9,3.2119,0.00025/2e-05,256,deit,747.8
+dynamicvit,"keep=0.5, predictors only",deit_small_patch16_224,3,75.1,3.209,0.00025/2e-05,256,deit,748.0
+dynamicvit,"keep=0.5, predictors only",deit_small_patch16_224,4,75.08,3.2173,0.00025/2e-05,256,deit,748.1
+dynamicvit,"keep=0.5, predictors only",deit_small_patch16_224,5,75.15,3.2094,0.00025/2e-05,256,deit,748.3
+dynamicvit,"keep=0.7, predictors only, distill",deit_small_patch16_224,0,68.61,,0.00025/2e-05,256,deit,15.4
+dynamicvit,"keep=0.7, predictors only, distill",deit_small_patch16_224,1,78.81,3.3562,0.00025/2e-05,256,deit,969.3
+dynamicvit,"keep=0.7, predictors only, distill",deit_small_patch16_224,2,78.79,3.3001,0.00025/2e-05,256,deit,967.2
+dynamicvit,"keep=0.7, predictors only, distill",deit_small_patch16_224,3,78.88,3.299,0.00025/2e-05,256,deit,968.0
+dynamicvit,"keep=0.7, predictors only, distill",deit_small_patch16_224,4,78.91,3.2969,0.00025/2e-05,256,deit,967.4
+dynamicvit,"keep=0.7, predictors only, distill",deit_small_patch16_224,5,78.9,3.2899,0.00025/2e-05,256,deit,967.6
+dynamicvit,"keep=0.5, predictors only, distill",deit_small_patch16_224,0,51.34,,0.00025/2e-05,256,deit,14.8
+dynamicvit,"keep=0.5, predictors only, distill",deit_small_patch16_224,1,74.44,3.5314,0.00025/2e-05,256,deit,970.3
+dynamicvit,"keep=0.5, predictors only, distill",deit_small_patch16_224,2,74.95,3.4833,0.00025/2e-05,256,deit,970.3
+dynamicvit,"keep=0.5, predictors only, distill",deit_small_patch16_224,3,74.81,3.4687,0.00025/2e-05,256,deit,990.5
+dynamicvit,"keep=0.5, predictors only, distill",deit_small_patch16_224,4,74.78,3.4582,0.00025/2e-05,256,deit,1039.9
+dynamicvit,"keep=0.5, predictors only, distill",deit_small_patch16_224,5,74.71,3.4724,0.00025/2e-05,256,deit,1320.3
+dtps,"keep=0.7, full",deit_small_patch16_224,0,75.13,,0.00025/2e-05,256,deit,16.7
+dtps,"keep=0.7, full",deit_small_patch16_224,1,78.95,3.1168,0.00025/2e-05,256,deit,1126.6
+dtps,"keep=0.7, full",deit_small_patch16_224,2,79.15,3.1056,0.00025/2e-05,256,deit,1110.4
+dtps,"keep=0.7, full",deit_small_patch16_224,3,79.22,3.0774,0.00025/2e-05,256,deit,1109.6
+dtps,"keep=0.7, full",deit_small_patch16_224,4,79.4,3.0654,0.00025/2e-05,256,deit,1107.2
+dtps,"keep=0.7, full",deit_small_patch16_224,5,79.37,3.0611,0.00025/2e-05,256,deit,1110.7
+dtps,"keep=0.5, full",deit_small_patch16_224,0,66.65,,0.00025/2e-05,256,deit,15.5
+dtps,"keep=0.5, full",deit_small_patch16_224,1,77.46,3.1835,0.00025/2e-05,256,deit,1122.6
+dtps,"keep=0.5, full",deit_small_patch16_224,2,77.82,3.1489,0.00025/2e-05,256,deit,1106.9
+dtps,"keep=0.5, full",deit_small_patch16_224,3,78.07,3.1371,0.00025/2e-05,256,deit,1107.1
+dtps,"keep=0.5, full",deit_small_patch16_224,4,78.32,3.1291,0.00025/2e-05,256,deit,1111.4
+dtps,"keep=0.5, full",deit_small_patch16_224,5,78.34,3.1072,0.00025/2e-05,256,deit,1116.2
+dtps,"keep=0.7, predictors only",deit_small_patch16_224,0,75.13,,0.00025/2e-05,256,deit,15.7
+dtps,"keep=0.7, predictors only",deit_small_patch16_224,1,78.64,3.1261,0.00025/2e-05,256,deit,869.6
+dtps,"keep=0.7, predictors only",deit_small_patch16_224,2,78.86,3.0951,0.00025/2e-05,256,deit,871.1
+dtps,"keep=0.7, predictors only",deit_small_patch16_224,3,78.88,3.093,0.00025/2e-05,256,deit,869.1
+dtps,"keep=0.7, predictors only",deit_small_patch16_224,4,78.95,3.099,0.00025/2e-05,256,deit,887.1
+dtps,"keep=0.7, predictors only",deit_small_patch16_224,5,78.91,3.09,0.00025/2e-05,256,deit,869.9
+dtps,"keep=0.5, predictors only",deit_small_patch16_224,0,66.65,,0.00025/2e-05,256,deit,15.2
+dtps,"keep=0.5, predictors only",deit_small_patch16_224,1,75.29,3.2325,0.00025/2e-05,256,deit,874.7
+dtps,"keep=0.5, predictors only",deit_small_patch16_224,2,75.81,3.2136,0.00025/2e-05,256,deit,871.2
+dtps,"keep=0.5, predictors only",deit_small_patch16_224,3,75.81,3.1965,0.00025/2e-05,256,deit,868.8
+dtps,"keep=0.5, predictors only",deit_small_patch16_224,4,75.72,3.2247,0.00025/2e-05,256,deit,868.5
+dtps,"keep=0.5, predictors only",deit_small_patch16_224,5,75.89,3.2022,0.00025/2e-05,256,deit,874.3
+avit,"gate 10/75, ponder 0.0005, prior 0.001, lr 2e-05",deit_small_patch16_224,0,79.86,,2e-05,256,deit,18.0
+avit,"gate 10/75, ponder 0.0005, prior 0.001, lr 2e-05",deit_small_patch16_224,1,79.65,3.0331,2e-05,256,deit,899.3
+avit,"gate 10/75, ponder 0.0005, prior 0.001, lr 2e-05",deit_small_patch16_224,2,79.62,3.0463,2e-05,256,deit,899.4
+avit,"gate 10/75, ponder 0.0005, prior 0.001, lr 2e-05",deit_small_patch16_224,3,79.74,3.0314,2e-05,256,deit,905.2
+avit,"gate 10/75, ponder 0.0005, prior 0.001, lr 2e-05",deit_small_patch16_224,4,79.79,3.0149,2e-05,256,deit,911.7
+avit,"gate 10/75, ponder 0.0005, prior 0.001, lr 2e-05",deit_small_patch16_224,5,79.82,3.0144,2e-05,256,deit,911.4
+avit,"gate 10/75, ponder 0.0005, prior 0.001, lr 0.00015",deit_small_patch16_224,0,79.86,,0.00015,256,deit,18.9
+avit,"gate 10/75, ponder 0.0005, prior 0.001, lr 0.00015",deit_small_patch16_224,1,76.67,3.3235,0.00015,256,deit,923.1
+avit,"gate 10/75, ponder 0.0005, prior 0.001, lr 0.00015",deit_small_patch16_224,2,76.67,3.3786,0.00015,256,deit,918.0
+avit,"gate 10/75, ponder 0.0005, prior 0.001, lr 0.00015",deit_small_patch16_224,3,77.82,3.3007,0.00015,256,deit,923.1
+avit,"gate 10/75, ponder 0.0005, prior 0.001, lr 0.00015",deit_small_patch16_224,4,78.83,3.1923,0.00015,256,deit,900.9
+avit,"gate 10/75, ponder 0.0005, prior 0.001, lr 0.00015",deit_small_patch16_224,5,78.97,3.1346,0.00015,256,deit,898.1

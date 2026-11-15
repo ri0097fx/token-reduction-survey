@@ -1,0 +1,51 @@
+method,setting,top1,gmacs,images,seconds,note
+tome (official code),r=11,79.31,2.986,50000,20.6,timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),"r=11, no proportional attention",78.25,2.986,50000,20.4,timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=16,78.1,2.291,50000,20.4,timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),"r=16, no proportional attention",75.56,2.291,50000,20.4,timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=11,70.94,0.807,50000,20.3,deit_tiny_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),"r=11, no proportional attention",69.26,0.807,50000,20.3,deit_tiny_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=16,68.7,0.622,50000,20.2,deit_tiny_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),"r=16, no proportional attention",63.18,0.622,50000,20.3,deit_tiny_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=11,80.55,11.457,50000,38.8,deit_base_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),"r=11, no proportional attention",80.49,11.457,50000,38.5,deit_base_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=16,77.81,8.772,50000,32.2,deit_base_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),"r=16, no proportional attention",78.23,8.772,50000,31.5,deit_base_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=13,79.04,2.703,50000,20.5,timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=13,79.04,2.703,50000,20.5,timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=13,79.04,2.703,50000,20.3,timm 0.4.12; NVIDIA GeForce RTX 5090
+evit (official code),"keep=0.7, fuse_token",78.51,3.029,50000,20.2,timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning
+evit (official code),"keep=0.7, fuse_token",78.51,3.029,50000,20.4,timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning
+diffrate (official code),2.9,79.53,2.905,50000,20.2,timm 0.4.12; NVIDIA GeForce RTX 5090
+diffrate (official code),2.9,79.53,2.905,50000,20.3,timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=13,79.04,2.703,50000,20.6,timm 0.4.12; NVIDIA GeForce RTX 5090; deterministic
+tome (official code),r=13,79.04,2.703,50000,20.7,timm 0.4.12; NVIDIA GeForce RTX 5090; deterministic
+none (official code),no reduction,79.86,4.599,50000,21.2,timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=13,79.04,2.703,50000,20.7,timm 0.4.12; NVIDIA GeForce RTX 5090
+evit (official code),"keep=0.7, fuse_token",78.51,3.029,50000,20.4,timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning
+diffrate (official code),2.9,79.53,2.905,50000,20.4,timm 0.4.12; NVIDIA GeForce RTX 5090
+none (official code),no reduction,79.85,4.599,50000,20.7,timm 0.4.12; NVIDIA GeForce RTX 5090; fp16
+tome (official code),r=13,79.02,2.703,50000,20.5,timm 0.4.12; NVIDIA GeForce RTX 5090; fp16
+evit (official code),"keep=0.7, fuse_token",78.5,3.029,50000,20.3,timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning; fp16
+diffrate (official code),2.9,79.54,2.905,50000,20.3,timm 0.4.12; NVIDIA GeForce RTX 5090; fp16
+none (official code),no reduction,79.84,4.599,50000,20.4,timm 0.4.12; NVIDIA GeForce RTX 5090; bf16
+tome (official code),r=13,79.09,2.703,50000,20.4,timm 0.4.12; NVIDIA GeForce RTX 5090; bf16
+evit (official code),"keep=0.7, fuse_token",78.54,3.029,50000,20.6,timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning; bf16
+diffrate (official code),2.9,79.55,2.905,50000,20.5,timm 0.4.12; NVIDIA GeForce RTX 5090; bf16
+tome (official code),"r=13, matching in fp32",78.98,2.703,50000,20.2,timm 0.4.12; NVIDIA GeForce RTX 5090; bf16
+tome (official code),"r=13, matching in fp32",79.06,2.703,50000,20.5,timm 0.4.12; NVIDIA GeForce RTX 5090; fp16
+none (official code),no reduction,83.74,17.564,50000,52.1,mae_vit_base_patch16; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),"r=11, with proportional attention",81.97,11.457,50000,39.8,mae_vit_base_patch16; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),"r=11, without proportional attention",82.34,11.457,50000,39.5,mae_vit_base_patch16; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),"r=16, with proportional attention",77.26,8.772,50000,32.9,mae_vit_base_patch16; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),"r=16, without proportional attention",78.88,8.772,50000,32.6,mae_vit_base_patch16; timm 0.4.12; NVIDIA GeForce RTX 5090
+none (official code),no reduction,85.95,61.555,50000,165.8,mae_vit_large_patch16; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),"r=6, with proportional attention",85.06,38.492,50000,102.5,mae_vit_large_patch16; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),"r=6, without proportional attention",85.09,38.492,50000,101.8,mae_vit_large_patch16; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),"r=8, with proportional attention",83.74,30.963,50000,86.8,mae_vit_large_patch16; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),"r=8, without proportional attention",84.22,30.963,50000,87.2,mae_vit_large_patch16; timm 0.4.12; NVIDIA GeForce RTX 5090
+none (official code),no reduction,86.89,167.295,50000,408.1,mae_vit_huge_patch14; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),"r=5, with proportional attention",86.47,113.843,50000,322.9,mae_vit_huge_patch14; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),"r=5, without proportional attention",86.54,113.843,50000,315.3,mae_vit_huge_patch14; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),"r=8, with proportional attention",85.37,82.463,50000,243.2,mae_vit_huge_patch14; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),"r=8, without proportional attention",85.43,82.463,50000,244.1,mae_vit_huge_patch14; timm 0.4.12; NVIDIA GeForce RTX 5090

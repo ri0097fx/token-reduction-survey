@@ -1,0 +1,73 @@
+method,setting,batch,img_per_s,peak_mb,threads,note
+none,no reduction,256,3382.7,1142,,timm 0.4.12; NVIDIA GeForce RTX 5090
+none,no reduction,256,3396.9,1142,,timm 0.4.12; NVIDIA GeForce RTX 5090
+none,no reduction,256,3371.4,1142,,timm 0.4.12; NVIDIA GeForce RTX 5090
+diffrate (official code),2.9,256,4882.8,1421,,timm 0.4.12; NVIDIA GeForce RTX 5090
+diffrate (official code),2.9,256,4879.0,1421,,timm 0.4.12; NVIDIA GeForce RTX 5090
+diffrate (official code),2.9,256,4836.2,1421,,timm 0.4.12; NVIDIA GeForce RTX 5090
+diffrate (official code),2.3,256,6052.8,1368,,timm 0.4.12; NVIDIA GeForce RTX 5090
+diffrate (official code),2.3,256,6175.2,1368,,timm 0.4.12; NVIDIA GeForce RTX 5090
+diffrate (official code),2.3,256,6181.5,1368,,timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=11,256,4865.0,1135,,timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=11,256,4834.0,1135,,timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=11,256,4830.3,1135,,timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=16,256,6282.7,1094,,timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=16,256,6302.1,1094,,timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=16,256,6309.3,1094,,timm 0.4.12; NVIDIA GeForce RTX 5090
+mctf (official code),"r=13, blocks 2-12, one-step-ahead",256,3331.8,1734,,timm 0.4.12; NVIDIA GeForce RTX 5090
+mctf (official code),"r=13, blocks 2-12, one-step-ahead",256,3303.5,1734,,timm 0.4.12; NVIDIA GeForce RTX 5090
+mctf (official code),"r=13, blocks 2-12, one-step-ahead",256,3307.1,1734,,timm 0.4.12; NVIDIA GeForce RTX 5090
+mctf (official code),"r=19, blocks 2-12, one-step-ahead",256,4378.3,1691,,timm 0.4.12; NVIDIA GeForce RTX 5090
+mctf (official code),"r=19, blocks 2-12, one-step-ahead",256,4346.6,1691,,timm 0.4.12; NVIDIA GeForce RTX 5090
+mctf (official code),"r=19, blocks 2-12, one-step-ahead",256,4335.1,1691,,timm 0.4.12; NVIDIA GeForce RTX 5090
+pitome (official code),ratio=0.925,256,4827.2,1089,,timm 0.4.12; NVIDIA GeForce RTX 5090
+pitome (official code),ratio=0.925,256,4846.4,1089,,timm 0.4.12; NVIDIA GeForce RTX 5090
+pitome (official code),ratio=0.925,256,4866.0,1089,,timm 0.4.12; NVIDIA GeForce RTX 5090
+pitome (official code),ratio=0.875,256,6278.5,1068,,timm 0.4.12; NVIDIA GeForce RTX 5090
+pitome (official code),ratio=0.875,256,5427.1,1068,,timm 0.4.12; NVIDIA GeForce RTX 5090
+pitome (official code),ratio=0.875,256,5926.8,1068,,timm 0.4.12; NVIDIA GeForce RTX 5090
+ppt (official code),"r=50, blocks 4/7/10, tau=7e-5",256,4503.2,1204,,timm 0.4.12; NVIDIA GeForce RTX 5090
+ppt (official code),"r=50, blocks 4/7/10, tau=7e-5",256,4643.5,1204,,timm 0.4.12; NVIDIA GeForce RTX 5090
+ppt (official code),"r=50, blocks 4/7/10, tau=7e-5",256,4664.5,1204,,timm 0.4.12; NVIDIA GeForce RTX 5090
+atc (official code),"keep=0.7, average linkage, blocks 4/7/10",256,784.0,1142,,timm 1.0.30; NVIDIA GeForce RTX 5090
+atc (official code),"keep=0.7, average linkage, blocks 4/7/10",256,789.8,1142,,timm 1.0.30; NVIDIA GeForce RTX 5090
+atc (official code),"keep=0.7, average linkage, blocks 4/7/10",256,787.1,1142,,timm 1.0.30; NVIDIA GeForce RTX 5090
+atc (official code),"keep=0.5, average linkage, blocks 4/7/10",256,978.3,1142,,timm 1.0.30; NVIDIA GeForce RTX 5090
+atc (official code),"keep=0.5, average linkage, blocks 4/7/10",256,988.0,1142,,timm 1.0.30; NVIDIA GeForce RTX 5090
+atc (official code),"keep=0.5, average linkage, blocks 4/7/10",256,988.0,1142,,timm 1.0.30; NVIDIA GeForce RTX 5090
+topk (official code),"keep=0.7, no fused token",256,5326.2,1130,,timm 0.4.12; NVIDIA GeForce RTX 5090
+topk (official code),"keep=0.7, no fused token",256,5320.8,1130,,timm 0.4.12; NVIDIA GeForce RTX 5090
+topk (official code),"keep=0.7, no fused token",256,5323.7,1130,,timm 0.4.12; NVIDIA GeForce RTX 5090
+topk (official code),"keep=0.5, no fused token",256,7072.1,1130,,timm 0.4.12; NVIDIA GeForce RTX 5090
+topk (official code),"keep=0.5, no fused token",256,7041.9,1130,,timm 0.4.12; NVIDIA GeForce RTX 5090
+topk (official code),"keep=0.5, no fused token",256,7048.3,1130,,timm 0.4.12; NVIDIA GeForce RTX 5090
+evit (official code),"keep=0.7, fuse_token",256,5227.3,1130,,timm 0.4.12; NVIDIA GeForce RTX 5090
+evit (official code),"keep=0.7, fuse_token",256,5204.2,1130,,timm 0.4.12; NVIDIA GeForce RTX 5090
+evit (official code),"keep=0.7, fuse_token",256,5204.1,1130,,timm 0.4.12; NVIDIA GeForce RTX 5090
+evit (official code),"keep=0.5, fuse_token",256,6896.8,1130,,timm 0.4.12; NVIDIA GeForce RTX 5090
+evit (official code),"keep=0.5, fuse_token",256,6896.4,1130,,timm 0.4.12; NVIDIA GeForce RTX 5090
+evit (official code),"keep=0.5, fuse_token",256,6933.5,1130,,timm 0.4.12; NVIDIA GeForce RTX 5090
+gtp (official code),"P=11, theta=0.7, alpha=0.3, Mixed graph M=8, MixedAttnMax",256,3997.4,1577,,timm 0.9.2; NVIDIA GeForce RTX 5090
+gtp (official code),"P=11, theta=0.7, alpha=0.3, Mixed graph M=8, MixedAttnMax",256,4036.9,1577,,timm 0.9.2; NVIDIA GeForce RTX 5090
+gtp (official code),"P=11, theta=0.7, alpha=0.3, Mixed graph M=8, MixedAttnMax",256,4013.2,1577,,timm 0.9.2; NVIDIA GeForce RTX 5090
+gtp (official code),"P=16, theta=0.6, alpha=0.3, Mixed graph M=8, MixedAttnMax",256,5229.5,1556,,timm 0.9.2; NVIDIA GeForce RTX 5090
+gtp (official code),"P=16, theta=0.6, alpha=0.3, Mixed graph M=8, MixedAttnMax",256,5248.4,1556,,timm 0.9.2; NVIDIA GeForce RTX 5090
+gtp (official code),"P=16, theta=0.6, alpha=0.3, Mixed graph M=8, MixedAttnMax",256,5229.3,1556,,timm 0.9.2; NVIDIA GeForce RTX 5090
+reprshift (official code),"drop 0.2 after blocks 1/4/7, MLP shift (L2)",256,5227.8,1284,,timm 1.0.30; NVIDIA GeForce RTX 5090
+reprshift (official code),"drop 0.2 after blocks 1/4/7, MLP shift (L2)",256,5217.3,1284,,timm 1.0.30; NVIDIA GeForce RTX 5090
+reprshift (official code),"drop 0.2 after blocks 1/4/7, MLP shift (L2)",256,5244.7,1284,,timm 1.0.30; NVIDIA GeForce RTX 5090
+reprshift (official code),"drop 0.31 after blocks 1/4/7, MLP shift (L2)",256,6821.5,1284,,timm 1.0.30; NVIDIA GeForce RTX 5090
+reprshift (official code),"drop 0.31 after blocks 1/4/7, MLP shift (L2)",256,6783.9,1284,,timm 1.0.30; NVIDIA GeForce RTX 5090
+reprshift (official code),"drop 0.31 after blocks 1/4/7, MLP shift (L2)",256,6783.2,1284,,timm 1.0.30; NVIDIA GeForce RTX 5090
+papr (official code),"z=0.6, MobileOne-S0 proposal",256,4383.3,1499,,timm 0.6.7; NVIDIA GeForce RTX 5090
+papr (official code),"z=0.6, MobileOne-S0 proposal",256,4361.5,1499,,timm 0.6.7; NVIDIA GeForce RTX 5090
+papr (official code),"z=0.6, MobileOne-S0 proposal",256,4350.2,1499,,timm 0.6.7; NVIDIA GeForce RTX 5090
+papr (official code),"z=0.45, MobileOne-S0 proposal",256,5784.5,1499,,timm 0.6.7; NVIDIA GeForce RTX 5090
+papr (official code),"z=0.45, MobileOne-S0 proposal",256,5780.5,1499,,timm 0.6.7; NVIDIA GeForce RTX 5090
+papr (official code),"z=0.45, MobileOne-S0 proposal",256,5755.1,1499,,timm 0.6.7; NVIDIA GeForce RTX 5090
+ats (official code),"DeiT_S.yaml (blocks 4-12, K=197)",256,3040.0,1825,,timm 0.4.12; NVIDIA GeForce RTX 5090
+ats (official code),"DeiT_S.yaml (blocks 4-12, K=197)",256,3028.9,1825,,timm 0.4.12; NVIDIA GeForce RTX 5090
+ats (official code),"DeiT_S.yaml (blocks 4-12, K=197)",256,3025.9,1825,,timm 0.4.12; NVIDIA GeForce RTX 5090
+pitome (official code),ratio=0.875,256,6321.2,1068,,timm 0.4.12; NVIDIA GeForce RTX 5090
+pitome (official code),ratio=0.875,256,6319.8,1068,,timm 0.4.12; NVIDIA GeForce RTX 5090
+pitome (official code),ratio=0.875,256,6309.7,1068,,timm 0.4.12; NVIDIA GeForce RTX 5090

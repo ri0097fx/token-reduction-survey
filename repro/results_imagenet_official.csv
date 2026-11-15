@@ -1,0 +1,68 @@
+method,setting,top1,gmacs,images,seconds,note
+none (official code),no reduction,79.86,4.599,50000,21.8,timm 0.4.12; NVIDIA GeForce RTX 5090
+diffrate (official code),2.9,79.53,2.905,50000,20.0,timm 0.4.12; NVIDIA GeForce RTX 5090
+diffrate (official code),2.3,78.8,2.327,50000,20.0,timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=11,79.31,2.986,50000,20.0,timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=16,78.1,2.291,50000,20.0,timm 0.4.12; NVIDIA GeForce RTX 5090
+mctf (official code),"r=13, blocks 2-12, one-step-ahead",79.54,2.943,50000,21.4,timm 0.4.12; NVIDIA GeForce RTX 5090; no training
+mctf (official code),"r=19, blocks 2-12, one-step-ahead",78.7,2.262,50000,20.4,timm 0.4.12; NVIDIA GeForce RTX 5090; no training
+pitome (official code),ratio=0.925,78.68,2.991,50000,20.5,timm 0.4.12; NVIDIA GeForce RTX 5090
+pitome (official code),ratio=0.875,76.87,2.288,50000,20.3,timm 0.4.12; NVIDIA GeForce RTX 5090
+ppt (official code),"r=50, blocks 4/7/10, tau=7e-5",79.46,2.941,50000,20.4,timm 0.4.12; NVIDIA GeForce RTX 5090
+atc (official code),"keep=0.7, average linkage, blocks 4/7/10",79.5,2.98,50000,71.7,timm 1.0.30; NVIDIA GeForce RTX 5090; no fine-tuning
+atc (official code),"keep=0.5, average linkage, blocks 4/7/10",78.38,2.278,50000,60.4,timm 1.0.30; NVIDIA GeForce RTX 5090; no fine-tuning
+evit (official code),"keep=0.7, fuse_token",78.51,3.029,50000,20.2,timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning
+evit (official code),"keep=0.5, fuse_token",74.19,2.309,50000,20.4,timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning
+gtp (official code),"P=11, theta=0.7, alpha=0.3, Mixed graph M=8, MixedAttnMax",78.98,2.986,50000,21.6,timm 0.9.2; NVIDIA GeForce RTX 5090
+gtp (official code),"P=16, theta=0.6, alpha=0.3, Mixed graph M=8, MixedAttnMax",76.52,2.284,50000,20.6,timm 0.9.2; NVIDIA GeForce RTX 5090
+reprshift (official code),"drop 0.2 after blocks 1/4/7, MLP shift (L2)",77.88,2.987,50000,20.2,timm 1.0.30; NVIDIA GeForce RTX 5090
+reprshift (official code),"drop 0.31 after blocks 1/4/7, MLP shift (L2)",74.56,2.312,50000,20.2,timm 1.0.30; NVIDIA GeForce RTX 5090
+papr (official code),"z=0.6, MobileOne-S0 proposal",78.29,2.99,50000,20.7,timm 0.6.7; NVIDIA GeForce RTX 5090; GMACs include the MobileOne-S0 proposal
+papr (official code),"z=0.45, MobileOne-S0 proposal",75.84,2.295,50000,20.9,timm 0.6.7; NVIDIA GeForce RTX 5090; GMACs include the MobileOne-S0 proposal
+ats (official code),"DeiT_S.yaml (blocks 4-12, K=197)",79.2,3.11,50000,25.1,timm 0.4.12; NVIDIA GeForce RTX 5090; not loaded: 9 out_zero_mask buffers (zeros by design)
+none (official code),no reduction,72.17,1.254,50000,20.1,deit_tiny_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+diffrate (official code),0.8,71.57,0.809,50000,20.0,deit_tiny_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+diffrate (official code),0.6,70.17,0.655,50000,20.0,deit_tiny_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=11,70.94,0.807,50000,20.2,deit_tiny_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=16,68.71,0.622,50000,20.3,deit_tiny_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+mctf (official code),"r=13, blocks 2-12, one-step-ahead",71.56,0.795,50000,20.1,deit_tiny_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090; no training
+mctf (official code),"r=19, blocks 2-12, one-step-ahead",69.56,0.613,50000,20.8,deit_tiny_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090; no training
+pitome (official code),ratio=0.925,70.15,0.808,50000,21.0,deit_tiny_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+pitome (official code),ratio=0.875,66.5,0.618,50000,20.7,deit_tiny_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+ppt (official code),"r=50, blocks 4/7/10, tau=7e-5",71.17,0.798,50000,20.9,deit_tiny_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+atc (official code),"keep=0.7, average linkage, blocks 4/7/10",71.6,0.808,50000,66.6,deit_tiny_patch16_224; timm 1.0.30; NVIDIA GeForce RTX 5090; no fine-tuning
+atc (official code),"keep=0.5, average linkage, blocks 4/7/10",69.02,0.621,50000,56.1,deit_tiny_patch16_224; timm 1.0.30; NVIDIA GeForce RTX 5090; no fine-tuning
+evit (official code),"keep=0.7, fuse_token",69.17,0.821,50000,20.7,deit_tiny_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning
+evit (official code),"keep=0.5, fuse_token",60.81,0.629,50000,20.0,deit_tiny_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning
+gtp (official code),"P=11, theta=0.7, alpha=0.3, Mixed graph M=8, MixedAttnMax",70.0,0.807,50000,20.4,deit_tiny_patch16_224; timm 0.9.2; NVIDIA GeForce RTX 5090
+gtp (official code),"P=16, theta=0.6, alpha=0.3, Mixed graph M=8, MixedAttnMax",65.19,0.62,50000,20.6,deit_tiny_patch16_224; timm 0.9.2; NVIDIA GeForce RTX 5090
+reprshift (official code),"drop 0.2 after blocks 1/4/7, MLP shift (L2)",68.35,0.802,50000,20.3,deit_tiny_patch16_224; timm 1.0.30; NVIDIA GeForce RTX 5090
+reprshift (official code),"drop 0.31 after blocks 1/4/7, MLP shift (L2)",63.06,0.62,50000,20.3,deit_tiny_patch16_224; timm 1.0.30; NVIDIA GeForce RTX 5090
+papr (official code),"z=0.6, MobileOne-S0 proposal",69.89,1.0,50000,20.2,deit_tiny_patch16_224; timm 0.6.7; NVIDIA GeForce RTX 5090; GMACs include the MobileOne-S0 proposal
+papr (official code),"z=0.45, MobileOne-S0 proposal",66.1,0.812,50000,20.1,deit_tiny_patch16_224; timm 0.6.7; NVIDIA GeForce RTX 5090; GMACs include the MobileOne-S0 proposal
+none (official code),no reduction,81.98,17.564,50000,50.6,deit_base_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+diffrate (official code),11.5,81.5,11.517,50000,39.0,deit_base_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+diffrate (official code),8.7,79.37,8.73,50000,32.3,deit_base_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=11,80.55,11.457,50000,38.7,deit_base_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=16,77.81,8.772,50000,31.9,deit_base_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+mctf (official code),"r=13, blocks 2-12, one-step-ahead",81.02,11.299,50000,45.9,deit_base_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090; no training
+mctf (official code),"r=19, blocks 2-12, one-step-ahead",78.1,8.666,50000,37.2,deit_base_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090; no training
+pitome (official code),ratio=0.925,80.73,11.487,50000,39.9,deit_base_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+pitome (official code),ratio=0.875,77.98,8.784,50000,33.1,deit_base_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+ppt (official code),"r=50, blocks 4/7/10, tau=7e-5",80.07,11.259,50000,38.0,deit_base_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090
+atc (official code),"keep=0.7, average linkage, blocks 4/7/10",80.08,11.421,50000,91.9,deit_base_patch16_224; timm 1.0.30; NVIDIA GeForce RTX 5090; no fine-tuning
+atc (official code),"keep=0.5, average linkage, blocks 4/7/10",73.48,8.697,50000,74.4,deit_base_patch16_224; timm 1.0.30; NVIDIA GeForce RTX 5090; no fine-tuning
+evit (official code),"keep=0.7, fuse_token",80.6,11.61,50000,36.3,deit_base_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning
+evit (official code),"keep=0.5, fuse_token",75.21,8.82,50000,29.1,deit_base_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning
+gtp (official code),"P=11, theta=0.7, alpha=0.3, Mixed graph M=8, MixedAttnMax",80.92,11.457,50000,43.8,deit_base_patch16_224; timm 0.9.2; NVIDIA GeForce RTX 5090
+gtp (official code),"P=16, theta=0.6, alpha=0.3, Mixed graph M=8, MixedAttnMax",78.27,8.744,50000,35.6,deit_base_patch16_224; timm 0.9.2; NVIDIA GeForce RTX 5090
+reprshift (official code),"drop 0.2 after blocks 1/4/7, MLP shift (L2)",79.62,11.501,50000,37.0,deit_base_patch16_224; timm 1.0.30; NVIDIA GeForce RTX 5090
+reprshift (official code),"drop 0.31 after blocks 1/4/7, MLP shift (L2)",75.41,8.913,50000,31.0,deit_base_patch16_224; timm 1.0.30; NVIDIA GeForce RTX 5090
+papr (official code),"z=0.6, MobileOne-S0 proposal",80.86,10.759,50000,37.3,deit_base_patch16_224; timm 0.6.7; NVIDIA GeForce RTX 5090; GMACs include the MobileOne-S0 proposal
+papr (official code),"z=0.45, MobileOne-S0 proposal",78.97,8.096,50000,29.1,deit_base_patch16_224; timm 0.6.7; NVIDIA GeForce RTX 5090; GMACs include the MobileOne-S0 proposal
+topk (official code),"keep=0.7, no fused token",78.48,2.997,50000,20.5,timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning
+topk (official code),"keep=0.5, no fused token",74.01,2.282,50000,20.3,timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning
+topk (official code),"keep=0.7, no fused token",69.21,0.812,50000,20.4,deit_tiny_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning
+topk (official code),"keep=0.5, no fused token",60.42,0.622,50000,20.6,deit_tiny_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning
+topk (official code),"keep=0.7, no fused token",80.39,11.485,50000,38.1,deit_base_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning
+topk (official code),"keep=0.5, no fused token",74.69,8.716,50000,30.9,deit_base_patch16_224; timm 0.4.12; NVIDIA GeForce RTX 5090; no fine-tuning

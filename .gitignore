@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+paper/tables/*
+!paper/tables/.gitkeep
+paper/figures/*
+!paper/figures/.gitkeep

@@ -1,0 +1,24 @@
+method,setting,ms_batch1,threads,runs,note
+none,no reduction,14.37,16,150,timm 0.4.12
+diffrate (official code),2.9,13.47,16,150,timm 0.4.12
+diffrate (official code),2.3,12.14,16,150,timm 0.4.12
+tome (official code),r=11,13.85,16,150,timm 0.4.12
+tome (official code),r=16,11.53,16,150,timm 0.4.12
+mctf (official code),"r=13, blocks 2-12, one-step-ahead",21.05,16,150,timm 0.4.12
+mctf (official code),"r=19, blocks 2-12, one-step-ahead",17.51,16,150,timm 0.4.12
+pitome (official code),ratio=0.925,14.91,16,150,timm 0.4.12
+pitome (official code),ratio=0.875,12.95,16,150,timm 0.4.12
+ppt (official code),"r=50, blocks 4/7/10, tau=7e-5",14.34,16,150,timm 0.4.12
+atc (official code),"keep=0.7, average linkage, blocks 4/7/10",15.07,16,150,timm 1.0.30
+atc (official code),"keep=0.5, average linkage, blocks 4/7/10",13.04,16,150,timm 1.0.30
+evit (official code),"keep=0.7, fuse_token",12.28,16,150,timm 0.4.12
+evit (official code),"keep=0.5, fuse_token",11.21,16,150,timm 0.4.12
+gtp (official code),"P=11, theta=0.7, alpha=0.3, Mixed graph M=8, MixedAttnMax",20.84,16,150,timm 0.9.2
+gtp (official code),"P=16, theta=0.6, alpha=0.3, Mixed graph M=8, MixedAttnMax",20.35,16,150,timm 0.9.2
+reprshift (official code),"drop 0.2 after blocks 1/4/7, MLP shift (L2)",12.38,16,150,timm 1.0.30
+reprshift (official code),"drop 0.31 after blocks 1/4/7, MLP shift (L2)",11.22,16,150,timm 1.0.30
+papr (official code),"z=0.6, MobileOne-S0 proposal",16.71,16,150,timm 0.6.7
+papr (official code),"z=0.45, MobileOne-S0 proposal",14.45,16,150,timm 0.6.7
+ats (official code),"DeiT_S.yaml (blocks 4-12, K=197)",19.0,16,150,timm 0.4.12
+topk (official code),"keep=0.7, no fused token",12.15,16,150,timm 0.4.12
+topk (official code),"keep=0.5, no fused token",10.87,16,150,timm 0.4.12

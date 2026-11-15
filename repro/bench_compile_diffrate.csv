@@ -1,0 +1,2 @@
+method,setting,eager_ms,default_ms,default_same_output,reduce-overhead_ms,reduce-overhead_same_output,note
+diffrate,2.9,3.433,1.412,True,1.248,True,"DeiT-S fp32, batch 1; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090"

@@ -1,0 +1,24 @@
+method,setting,ms_batch1,threads,runs,note
+none,no reduction,1.52,4,150,timm 0.4.12; NVIDIA GeForce RTX 5090
+diffrate (official code),2.9,3.36,4,150,timm 0.4.12; NVIDIA GeForce RTX 5090
+diffrate (official code),2.3,3.32,4,150,timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=11,3.28,4,150,timm 0.4.12; NVIDIA GeForce RTX 5090
+tome (official code),r=16,3.29,4,150,timm 0.4.12; NVIDIA GeForce RTX 5090
+mctf (official code),"r=13, blocks 2-12, one-step-ahead",7.56,4,150,timm 0.4.12; NVIDIA GeForce RTX 5090
+mctf (official code),"r=19, blocks 2-12, one-step-ahead",7.62,4,150,timm 0.4.12; NVIDIA GeForce RTX 5090
+pitome (official code),ratio=0.925,4.62,4,150,timm 0.4.12; NVIDIA GeForce RTX 5090
+pitome (official code),ratio=0.875,4.59,4,150,timm 0.4.12; NVIDIA GeForce RTX 5090
+ppt (official code),"r=50, blocks 4/7/10, tau=7e-5",2.82,4,150,timm 0.4.12; NVIDIA GeForce RTX 5090
+atc (official code),"keep=0.7, average linkage, blocks 4/7/10",3.69,4,150,timm 1.0.30; NVIDIA GeForce RTX 5090
+atc (official code),"keep=0.5, average linkage, blocks 4/7/10",3.5,4,150,timm 1.0.30; NVIDIA GeForce RTX 5090
+evit (official code),"keep=0.7, fuse_token",1.52,4,150,timm 0.4.12; NVIDIA GeForce RTX 5090
+evit (official code),"keep=0.5, fuse_token",1.49,4,150,timm 0.4.12; NVIDIA GeForce RTX 5090
+gtp (official code),"P=11, theta=0.7, alpha=0.3, Mixed graph M=8, MixedAttnMax",4.79,4,150,timm 0.9.2; NVIDIA GeForce RTX 5090
+gtp (official code),"P=16, theta=0.6, alpha=0.3, Mixed graph M=8, MixedAttnMax",4.65,4,150,timm 0.9.2; NVIDIA GeForce RTX 5090
+reprshift (official code),"drop 0.2 after blocks 1/4/7, MLP shift (L2)",1.7,4,150,timm 1.0.30; NVIDIA GeForce RTX 5090
+reprshift (official code),"drop 0.31 after blocks 1/4/7, MLP shift (L2)",1.67,4,150,timm 1.0.30; NVIDIA GeForce RTX 5090
+papr (official code),"z=0.6, MobileOne-S0 proposal",1.79,4,150,timm 0.6.7; NVIDIA GeForce RTX 5090
+papr (official code),"z=0.45, MobileOne-S0 proposal",1.8,4,150,timm 0.6.7; NVIDIA GeForce RTX 5090
+ats (official code),"DeiT_S.yaml (blocks 4-12, K=197)",6.88,4,150,timm 0.4.12; NVIDIA GeForce RTX 5090
+topk (official code),"keep=0.7, no fused token",1.37,4,150,timm 0.4.12; NVIDIA GeForce RTX 5090
+topk (official code),"keep=0.5, no fused token",1.34,4,150,timm 0.4.12; NVIDIA GeForce RTX 5090

@@ -1,0 +1,50 @@
+[
+ {
+  "coco_id": 440507,
+  "file": "000000440507.jpg",
+  "author": "Hajime NAKANO",
+  "page": "https://www.flickr.com/photos/jetalone/81948760/",
+  "license": "CC BY 2.0",
+  "checked": "2026-10-27"
+ },
+ {
+  "coco_id": 234660,
+  "file": "000000234660.jpg",
+  "author": "Karl Baron",
+  "page": "https://www.flickr.com/photos/kalleboo/9244258043/",
+  "license": "CC BY 2.0",
+  "checked": "2026-10-27"
+ },
+ {
+  "coco_id": 331075,
+  "file": "000000331075.jpg",
+  "author": "Eric Sonstroem",
+  "page": "https://www.flickr.com/photos/sonstroem/9178299324/",
+  "license": "CC BY 2.0",
+  "checked": "2026-10-27"
+ },
+ {
+  "coco_id": 343934,
+  "file": "000000343934.jpg",
+  "author": "Newtown grafitti",
+  "page": "https://www.flickr.com/photos/newtown_grafitti/10051858643/",
+  "license": "CC BY 2.0",
+  "checked": "2026-11-14"
+ },
+ {
+  "coco_id": 211069,
+  "file": "000000211069.jpg",
+  "author": "Jeremy Thompson",
+  "page": "https://www.flickr.com/photos/rollercoasterphilosophy/8210566586/",
+  "license": "CC BY 2.0",
+  "checked": "2026-11-14"
+ },
+ {
+  "coco_id": 403353,
+  "file": "000000403353.jpg",
+  "author": "Zepfanman.com",
+  "page": "https://www.flickr.com/photos/zepfanman/8245255095/",
+  "license": "CC BY 2.0",
+  "checked": "2026-11-14"
+ }
+]

@@ -1,0 +1,15 @@
+method,setting,variant,dtype,max_abs_diff,pred_agreement,ms_batch1,img_per_s_batch256,note
+none,no reduction,released,fp32,0.0,1.0,1.517,3375.2,DeiT-S; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090
+none,no reduction,sdpa,fp32,2e-05,1.0,1.606,3997.1,DeiT-S; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090
+none,no reduction,released,fp16,0.0,1.0,1.24,6975.4,DeiT-S; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090
+none,no reduction,sdpa,fp16,0.01807,0.998,0.972,11410.2,DeiT-S; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090
+tome,r=13,released,fp32,0.0,1.0,3.223,5340.5,DeiT-S; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090
+tome,r=13,sdpa-bias,fp32,3e-05,1.0,3.357,6318.2,DeiT-S; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090
+tome,r=13,sdpa-augment,fp32,4e-05,1.0,3.73,5285.6,DeiT-S; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090
+tome,r=13,released,fp16,0.0,1.0,3.632,10730.5,DeiT-S; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090
+tome,r=13,sdpa-bias,fp16,1.99219,0.9941,3.654,15163.2,DeiT-S; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090
+tome,r=13,sdpa-augment,fp16,1.42383,0.998,4.157,13152.6,DeiT-S; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090
+evit,"keep=0.7, fuse_token",released,fp32,0.0,1.0,1.483,5169.6,DeiT-S; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090
+evit,"keep=0.7, fuse_token",sdpa-clsrow,fp32,4e-05,1.0,1.426,5908.4,DeiT-S; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090
+evit,"keep=0.7, fuse_token",released,fp16,0.0,1.0,1.643,11455.1,DeiT-S; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090
+evit,"keep=0.7, fuse_token",sdpa-clsrow,fp16,0.4873,0.998,1.433,16253.1,DeiT-S; torch 2.11.0+cu128; NVIDIA GeForce RTX 5090

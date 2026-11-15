@@ -1,0 +1,8 @@
+model,run,scope,ratio,macs_frac,box_ap,box_ap50,box_ap_s,box_ap_l,mask_ap,images,seconds
+vitdet_b_mask_rcnn,none,none,0.0,1.0,51.64,72.43,35.4,66.42,45.92,5000,1383.8
+vitdet_b_mask_rcnn,attn:0.25,attn,0.25,0.885,51.48,72.05,35.23,66.32,45.8,5000,1609.7
+vitdet_b_mask_rcnn,attn:0.5,attn,0.5,0.798,50.95,71.38,34.32,65.88,45.37,5000,1195.4
+vitdet_b_mask_rcnn,attn:0.75,attn,0.75,0.737,47.18,68.64,30.1,64.26,42.89,5000,1372.2
+vitdet_b_mask_rcnn,attn_mlp:0.25,attn_mlp,0.25,0.845,51.36,71.84,35.01,66.11,45.7,5000,1473.4
+vitdet_b_mask_rcnn,attn_mlp:0.5,attn_mlp,0.5,0.717,49.23,69.92,31.85,64.26,43.8,5000,840.9
+vitdet_b_mask_rcnn,attn_mlp:0.75,attn_mlp,0.75,0.616,24.41,39.17,4.39,49.08,21.78,5000,405.9

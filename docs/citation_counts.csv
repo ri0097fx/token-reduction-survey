@@ -1,0 +1,94 @@
+key,name,year,target,citations,records,corpus_mentions
+dai2020funnel,Funnel-Transformer,2020,nlp,138,,2
+goyal2020powerbert,PoWER-BERT,2020,nlp,102,,6
+chen2021svite,SViTE+,2021,classification,111,,2
+kim2021lengthadaptive,Length-Adaptive Transformer,2021,nlp,59,doi:59,4
+pan2021iared2,IA-RED2,2021,classification; video,,,27
+rao2021dynamicvit,DynamicViT,2021,classification,448,,49
+ryoo2021tokenlearner,TokenLearner,2021,classification; video,,,12
+song2021dge,DGE,2021,classification; dense,18,,3
+wang2021dvt,DVT,2021,classification,78,,7
+ye2021trbert,TR-BERT,2021,nlp,47,doi:47,4
+fayyaz2022ats,ATS,2022,classification; video,194,doi:194,23
+kim2022ltp,LTP,2022,nlp,137,doi:137,5
+kong2022spvit,SPViT,2022,classification,168,doi:168,18
+li2022sait,SaiT,2022,classification,16,,2
+liang2022evit,EViT,2022,classification,131,,39
+meng2022adavit,AdaViT,2022,classification,261,doi:261,11
+renggli2022patchmerger,PatchMerger,2022,classification,29,,4
+roh2022sparsedetr,Sparse DETR,2022,dense,137,,1
+tang2022psvit,PS-ViT (Patch Slimming),2022,classification,200,doi:200,19
+wang2022stts,STTS,2022,video,74,doi:74,2
+xu2022evovit,Evo-ViT,2022,classification,197,doi:197,22
+yin2022avit,A-ViT,2022,classification,352,doi:352,28
+zeng2022tcformer,TCFormer,2022,dense; classification,150,doi:150,2
+zong2022sit,SiT,2022,classification,38,doi:38,4
+bolya2023tome,ToMe,2023,classification; video; other,140,,40
+bolya2023tomesd,ToMe for SD,2023,generation,114,doi:114,3
+bonnaerens2023ltmp,LTMP,2023,classification,10,,1
+chang2023stvit,STViT,2023,classification; video; dense,42,doi:42,1
+chen2023cfvit,CF-ViT,2023,classification,77,doi:77,3
+chen2023diffrate,DiffRate,2023,classification,42,doi:42,9
+chen2023sparsevit,SparseViT,2023,dense,67,doi:67,1
+ding2023sta,STA,2023,video,18,doi:18,1
+dong2023heatvit,HeatViT,2023,classification,125,doi:125,3
+dou2023tore,TORE,2023,other,47,doi:47,0
+grainger2023pacavit,PaCa-ViT,2023,classification; dense,36,doi:36,0
+haurum2023whichtokens,,2023,classification,47,doi:47,1
+havtorn2023msvit,MSViT,2023,classification; dense,17,doi:17,0
+lin2023supervit,SuperViT,2023,classification,36,doi:36,1
+long2023beyond,,2023,classification,46,doi:46,5
+lu2023cts,CTS,2023,dense,36,doi:36,1
+marin2023tokenpooling,Token Pooling,2023,classification,53,doi:53,8
+rao2023dss,DynamicViT / DynamicCNN / DynamicSwin,2023,classification; dense,65,doi:65,
+ren2023testa,TESTA,2023,video; vlm,20,doi:20,2
+ronen2023mixedres,Quadformer,2023,classification,24,doi:24,0
+tang2023dtop,DToP,2023,dense,50,doi:50,3
+wei2023tps,TPS,2023,classification,80,doi:80,8
+wu2023ppt,PPT,2023,classification,7,,6
+zheng2023focusdetr,Focus-DETR,2023,dense,147,doi:147,0
+zhou2023longimageshort,ReViT,2023,classification; video,7,doi:7,1
+chen2024fastv,FastV,2024,vlm; video,151,doi:151,11
+choi2024vidtldr,vid-TLDR,2024,video; vlm,31,doi:31,1
+darcet2024registers,,2024,classification; dense,90,,3
+haurum2024atc,ATC,2024,classification; generation; dense,9,doi:9,2
+jie2024tocom,ToCom,2024,classification,5,doi:5,0
+kim2024tofu,ToFu,2024,classification; generation,69,doi:69,4
+lee2024dtem,DTEM,2024,classification; vlm; dense,6,doi:6,2
+lee2024mctf,MCTF,2024,classification,18,doi:18,2
+liu2024revisiting,SViT,2024,dense; classification,34,doi:34,1
+mahmud2024papr,PaPr,2024,classification; video,2,doi:2,0
+norouzi2024algm,ALGM,2024,dense,21,doi:21,1
+shi2024crossget,CrossGET,2024,vlm,5,,3
+tran2024pitome,PiToMe,2024,classification; vlm; nlp,13,doi:13,2
+wang2024atedm,AT-EDM,2024,generation,11,doi:11,1
+wang2024zerotprune,Zero-TPrune,2024,classification,42,doi:42,4
+xu2024gtpvit,GTP-ViT,2024,classification,17,doi:17,2
+zhan2024mambatoken,,2024,classification; dense,8,doi:8,
+alvar2025divprune,DivPrune,2025,vlm; video,38,doi:38,1
+arif2025hired,HiRED,2025,vlm,17,doi:17,1
+bergner2025cropr,Cropr,2025,classification; dense,5,doi:5,1
+eliopoulos2025onemore,,2025,classification,2,doi:2,
+endo2025feather,FEATHER,2025,vlm,3,doi:3,0
+ishibashi2025pruningrate,,2025,classification,27,doi:27,
+lee2025atm,ATM,2025,classification,2,doi:2,2
+lee2025freqaware,,2025,classification; dense,2,doi:2,
+li2025tokenpacker,TokenPacker,2025,vlm,40,doi:40,1
+lin2025vtw,VTW,2025,vlm; video,31,doi:31,1
+ma2025mambatokenfree,MTR,2025,classification,0,,
+peng2025votemix,VoMix,2025,classification; video,1,doi:1,1
+pollard2025videomerge,,2025,video,0,doi:0,
+shang2025prumerge,PruMerge / PruMerge+ (LLaVA-PruMerge),2025,vlm; video,51,doi:51,8
+wang2025dymu,DyMU,2025,vlm; video,0,doi:0,1
+wang2025effivlmbench,EffiVLM-Bench,2025,vlm; video,3,doi:3,0
+wu2025importancemerge,,2025,generation; video,4,doi:4,
+xing2025vico,"ViCo (PyramidDrop, PDrop)",2025,vlm; video,0,,4
+yang2025visionzip,VisionZip,2025,vlm; video,66,doi:66,3
+ye2025fitprune,FitPrune,2025,vlm,29,doi:29,1
+zeng2025tokentransforming,Token Transforming,2025,classification; dense; vlm,0,,0
+zhang2025cdpruner,CDPruner,2025,vlm; video,9,doi:9,0
+zhang2025sparsevlm,SparseVLM,2025,vlm; video,1,,5
+zhao2025dydit,DyDiT,2025,generation,2,,0
+bercy2026g2tm,G2TM,2026,dense; classification,0,,0
+choi2026rapid,RAPID,2026,classification,0,,1
+ishibashi2026attention,,2026,?,2,doi:2,

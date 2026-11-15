@@ -1,0 +1,15 @@
+ATC https://github.com/JoakimHaurum/ATC.git 227c94b584df323b94dd79e8ddbb88b1587eeb8e
+ATS https://github.com/adaptivetokensampling/ATS.git 9271257adc7ea9695c2ccd75e25e3a86432fd65a
+DiffRate https://github.com/OpenGVLab/DiffRate.git 91ae3e376e9c3f9f1e69f580fd902b61de5dfe0e
+GTP-ViT https://github.com/Ackesnal/GTP-ViT 97a117814d0ff99edbbe34bec12e851db4be2eb5
+MCTF https://github.com/mlvlab/MCTF.git 2004da0cad3231fa74cbd60b6042b0bd133aacde
+PPT https://github.com/xjwu1024/PPT.git 706bcdd475b5652ee84117a88add7a3a49c6045b
+PaPr https://github.com/tanvir-utexas/PaPr 3bbf014b50fff47f5ce15ba73a05b06a4a137d7d
+PiToMe https://github.com/hchautran/PiToMe.git 550b5deed94aadfeac28bfbe381d87e672044a40
+Representation-Shift https://github.com/mlvlab/Representation-Shift a528e0235a165c45d18bcb52126763338916519b
+ToMe https://github.com/facebookresearch/ToMe.git af95e4b1befa172dadccd8c81e223b10090f9579
+evit https://github.com/youweiliang/evit.git 5ca95a7cf4a8637193284895c5bc0dd9dc365982
+TPS-CVPR2023 https://github.com/megvii-research/TPS-CVPR2023.git 4ff58efc39ba003a7f769375176d1d8ed8de0b4e
+A-ViT https://github.com/NVlabs/A-ViT 120c9cb90acf86828f1c61dd42c08722aa7173c7
+SPViT https://github.com/PeiyanFlying/SPViT a1f9423db8098c4915192a9214fe0e5b9397e046
+DynamicViT https://github.com/raoyongming/DynamicViT 1322e626d1e9eca18cc150569908fb4af29e15f7
